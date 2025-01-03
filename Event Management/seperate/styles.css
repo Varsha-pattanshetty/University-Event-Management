@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #4fd1c5;
+}
+
+a:hover {
+    color: #38b2ac;
+}
+
+.container {
+    padding: 20px;
+}
+
+.slidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #1c3d4a;
+    padding-top: 20px;
+}
+
+.slidebar button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4fd1c5;
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.slidebar button:hover {
+    background-color: #38b2ac;
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.content-box a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4fd1c5;
+    font-size: 1.2rem;
+}
+
+.back, .logout {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1c3d4a;
+    color: white;
+    border-radius: 5px;
+}
+
+.back:hover, .logout:hover {
+    background-color: #38b2ac;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.payment-qr-code-container img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Confirmation and Feedback Pages */
+.confirmation-box, .feedback-thank-you {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
