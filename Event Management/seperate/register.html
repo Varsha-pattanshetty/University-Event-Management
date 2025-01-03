@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <div class="register-container">
+        <h1>Register</h1>
+        <form action="/register" method="POST">
+            <input type="text" name="username" placeholder="Username" required />
+            <input type="password" name="password" placeholder="Password" required />
+            <select name="role" required>
+                <option value="organizer">Organizer</option>
+                <option value="attendee">Attendee</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+        <a href="/login">Already have an account? Log in here</a>
+        <div class="quote">"Why not? You are just one click away from greatness!"</div>
+        <div class="quote">"Let’s make registration as easy as possible—because who has time for hard stuff?"</div>
+    </div>
+</body>
+</html>
+
